@@ -48,9 +48,8 @@ This is an Android application that demonstrates a sample implementation of an a
 ### Demo Video
 
 Check out this video to see a demo of the app:
-![](demo/AisleDemo.gif)
 
-[![Demo Video][(demo/AiseAppDemoVideo.mp4)]
+ <img src="demo/AisleDemo.gif" width="300">
 
 
 ### Features
@@ -347,13 +346,13 @@ The app communicates with the backend API using the following endpoints:
 
 ### Screenshots
 
-- **Phone Number Screen**
+#### Phone Number Screen
   <img src="demo/phonenumberscreen.jpg" width="300">
 
-- **OTP Screen**
+#### OTP Screen*
   <img src="demo/otpscreen.jpg" width="300">
 
-- **Notes Screen**
+#### Notes Screen
   <img src="demo/notesscreen.jpg" width="300">
 
 
