@@ -49,6 +49,9 @@ This is an Android application that demonstrates a sample implementation of an a
 
 Check out this video to see a demo of the app:
 
+[![Demo Video][(https://github.com/ajitpatel28/AisleAssignment/blob/fc06d9f2d5ab1eb9fa0e4b7d1d2fe2abcc37cfdb/demo/AiseAppDemoVideo.mp4)]
+
+
 ### Features
 
 - Phone Number Login: Users can enter their phone number and initiate a login process.
@@ -344,14 +347,13 @@ The app communicates with the backend API using the following endpoints:
 ### Screenshots
 
 - **Phone Number Screen**
-![](demo/phonenumberscreen.jpg)
+  <img src="demo/phonenumberscreen.jpg" width="300">
 
-- **Otp Screen**
-![](demo/otpscreen.jpg)
+- **OTP Screen**
+  <img src="demo/otpscreen.jpg" width="300">
 
 - **Notes Screen**
-![](demo/notesscreen.jpg)
-
+  <img src="demo/notesscreen.jpg" width="300">
 
 
 
