@@ -18,7 +18,7 @@ class PhoneViewModel(private val repository: Repository) : ViewModel() {
     fun phoneNumberLogin(number: String) {
         viewModelScope.launch {
             _phoneNumberResponse.value = UiState.Loading
-            Log.e("view","$number")
+//            Log.e("view","$number")
             val response = repository.phoneNumberLogin(number)
             _phoneNumberResponse.value = response
         }

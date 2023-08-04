@@ -31,8 +31,7 @@ class OtpViewModel(private val repository: Repository) : ViewModel() {
         }
     }
 
-    fun resendOtp(number: String, otp: String) {
-        verifyOtp(number,otp)
+    fun resendOtp() {
         startOtpTimer(60)
     }
 

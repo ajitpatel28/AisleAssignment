@@ -43,21 +43,20 @@ class OtpFragment : Fragment() {
         binding.tvMobileNumber.text = mobileNumber
 
         binding.btnEdit.setOnClickListener {
-            findNavController().popBackStack()
+            val action = OtpFragmentDirections.actionOtpFragmentToPhoneNumberFragment()
+            findNavController().navigate(action)
         }
 
 
         binding.btnContinue.setOnClickListener {
             val otp = binding.etOtp.text.toString()
 
-            Log.e("otp", "$otp")
+//            Log.e("otp", "$otp")
             otpViewModel.verifyOtp( number,otp)
         }
 
         binding.btnResendOtp.setOnClickListener {
-            val otp = binding.etOtp.text.toString()
-            Log.e("otp", "$otp")
-            otpViewModel.resendOtp(number,otp)
+            otpViewModel.resendOtp()
         }
 
         otpViewModel.startOtpTimer(60)
@@ -88,7 +87,7 @@ class OtpFragment : Fragment() {
                     findNavController().navigate(action)
                 }
                 is UiState.Failure -> {
-                    toast("${uiState.error}")
+                    toast("Please enter correct otp")
 //                    Log.e("otp","${uiState.error}")
                 }
             }

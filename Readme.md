@@ -48,6 +48,7 @@ This is an Android application that demonstrates a sample implementation of an a
 ### Demo Video
 
 Check out this video to see a demo of the app:
+![](demo/AisleDemo.gif)
 
 ### Features
 

@@ -35,7 +35,7 @@ class InvitesAdapter : RecyclerView.Adapter<InvitesAdapter.InviteViewHolder>() {
         fun bindData(profile: Map<String, Any>) {
             val firstName =profile["general_information"]?.let { (it as Map<*, *>)["first_name"] as? String }
             val age = profile["general_information"]?.let { (it as Map<*, *>)["age"] as? Double }
-            Log.e("adapter","name---$firstName,  age---$age")
+//            Log.e("adapter","name---$firstName,  age---$age")
             binding.textFirstNameAndAge.text = "$firstName, ${age?.toInt()}"
 
             val photos = profile["photos"] as? List<Map<String, Any>>?

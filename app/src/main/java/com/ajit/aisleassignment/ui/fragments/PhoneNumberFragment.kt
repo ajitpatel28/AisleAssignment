@@ -49,7 +49,7 @@ class PhoneNumberFragment : Fragment() {
 //                Log.e("phone","$number")
                 phoneViewModel.phoneNumberLogin(number)
             } else {
-                toast("Please check you number and try again")
+                toast("Please check your number and try again")
             }
         }
 
@@ -68,6 +68,7 @@ class PhoneNumberFragment : Fragment() {
                                 countryCode = binding.etCountryCode.text.toString(),
                                 mobileNumber = binding.etPhoneNumber.text.toString()
                             )
+
                         findNavController().navigate(action)
                     } else {
                         toast("Phone number status false. Please try with different number.")
