@@ -349,7 +349,7 @@ The app communicates with the backend API using the following endpoints:
 #### Phone Number Screen
   <img src="demo/phonenumberscreen.jpg" width="300">
 
-#### OTP Screen*
+#### OTP Screen
   <img src="demo/otpscreen.jpg" width="300">
 
 #### Notes Screen
