@@ -49,7 +49,7 @@ This is an Android application that demonstrates a sample implementation of an a
 
 Check out this video to see a demo of the app:
 
-[![Demo Video][(https://github.com/ajitpatel28/AisleAssignment/blob/fc06d9f2d5ab1eb9fa0e4b7d1d2fe2abcc37cfdb/demo/AiseAppDemoVideo.mp4)]
+[![Demo Video][(demo/AiseAppDemoVideo.mp4)]
 
 
 ### Features
